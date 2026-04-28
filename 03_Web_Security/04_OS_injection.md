@@ -282,3 +282,86 @@ try {
 - **Use `spawn` or `execFile`** for better performance and security.
 - **Never use `execSync`** in a route handler (like `app.get(...)`), or your website will freeze for every other user while
   that one command runs!
+
+---
+
+---
+
+The main difference between `exec()` and `spawn()` lies in **how they handle data** and **whether they use a shell**. Think
+of `exec()` as a "one-and-done" buffer, while `spawn()` is a continuous "stream."
+
+---
+
+## 1. `exec()`: The Buffered Approach
+
+When you use `exec()`, Node.js runs the command and waits until it is completely finished. It then collects all the output
+(stdout and stderr) and puts it into a single buffer.
+
+- **Output:** Returns a buffer (usually a string).
+- **Shell:** It **spawns a shell** (like `/bin/sh` or `cmd.exe`). This makes it easy to use pipes (`|`) or redirects (`>`) in
+  your command string.
+- **Limit:** Since it stores the output in memory, it has a default limit (usually 1MB). If your command generates 2MB of
+  text, `exec()` will crash with an "Error: maxBuffer exceeded."
+
+**Best for:** Small, quick commands where you just need the final result (e.g., checking a version number or a simple file
+count).
+
+---
+
+## 2. `spawn()`: The Streaming Approach
+
+`spawn()` is designed for heavy lifting. It sends data back to your main Node.js process in small chunks while the command is
+still running.
+
+- **Output:** Returns a **Stream**. You can listen to the `data` event and process it piece by piece.
+- **Shell:** By default, it **does not spawn a shell**. You must provide the command and the arguments separately. This makes
+  it significantly more secure against injection attacks.
+- **Limit:** There is no buffer limit because the data isn't stored; it just passes through.
+
+**Best for:** Large amounts of data, long-running processes, or when security is a priority (e.g., image processing,
+streaming video, or running a secondary server).
+
+---
+
+## Key Comparison Table
+
+| Feature               | `exec()`                                                     | `spawn()`                                          |
+| :-------------------- | :----------------------------------------------------------- | :------------------------------------------------- |
+| **Data Handling**     | **Buffered:** Waits for completion, returns a single string. | **Streaming:** Sends data in chunks as it happens. |
+| **Shell Environment** | **Yes:** Spawns a shell by default.                          | **No:** Executes the binary directly.              |
+| **Arguments**         | Passed as part of one long string.                           | Passed as an array of strings.                     |
+| **Performance**       | Slower (Shell overhead + memory buffering).                  | Faster (Direct execution + memory efficient).      |
+| **Max Data Size**     | Limited by `maxBuffer` (default ~1MB).                       | Theoretically unlimited.                           |
+
+---
+
+## Quick Code Comparison
+
+### `exec()` Example
+
+```javascript
+const { exec } = require("child_process");
+
+// Easy to write, but captures everything at once
+exec("ls -lh /usr", (error, stdout, stderr) => {
+  console.log(stdout); // The entire list prints at once
+});
+```
+
+### `spawn()` Example
+
+```javascript
+const { spawn } = require("child_process");
+
+// More verbose, but much more efficient for large directories
+const ls = spawn("ls", ["-lh", "/usr"]);
+
+ls.stdout.on("data", (data) => {
+  console.log(`Received a chunk: ${data}`); // Prints as the data arrives
+});
+```
+
+### Which should you use for your React/Express app?
+
+If you are running a script via a route in your Express backend, **use `spawn()`** or **`execFile()`**. They are safer
+because they don't involve the shell, meaning an attacker can't easily chain malicious commands using `;` or `&&`.
