@@ -1,6 +1,7 @@
 # Network and Cybersecurity courses
 
-Files created during Network and Cybersecurity courses from Udemy.com
+Files created during Network and Cybersecurity courses from Udemy.com (With a Little Help from My Friends: Gemini,
+Perplexity, ChatGPD 😏)
 
 1. [The Complete Certified in Cybersecurity CC course ISC2 2026](https://www.udemy.com/course/certifiedincybersecurity)
 
