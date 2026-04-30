@@ -4,13 +4,14 @@ import socket
 UDP_IP = "127.0.0.1"
 UDP_PORT = 5005
 MESSAGE = b"Hello! This is a network packet."
+# print("MESSAGE:", MESSAGE)
 
 print(f"Target IP: {UDP_IP}")
 print(f"Target Port: {UDP_PORT}")
 
 # 2. Create the socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-print("sock:", sock)
+# print("sock:", sock)
 
 # 3. Send the packet
 sock.sendto(MESSAGE, (UDP_IP, UDP_PORT))
