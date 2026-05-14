@@ -10,3 +10,5 @@ Perplexity, ChatGPT 😏 and Grok)
 3. [Web Security: A Hands-on Approach](https://www.udemy.com/course/web-security-du)
 
 4. [Internet Security: A Hands-on Approach](https://www.udemy.com/course/du-internet-security)
+
+5. [An Introduction to OWASP Top 10 Vulnerabilities](https://www.udemy.com/course/an-introduction-to-owasp-top-10-vulnerabilities)
