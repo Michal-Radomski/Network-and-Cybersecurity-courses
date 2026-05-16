@@ -3,6 +3,7 @@
 Temp/
 notes.txt
 __pycache__/
+Materials/
 
 # Distribution / packaging
 .Python
