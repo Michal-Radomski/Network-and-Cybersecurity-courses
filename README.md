@@ -14,3 +14,5 @@ Perplexity, ChatGPT 😏 and Grok)
 5. [An Introduction to OWASP Top 10 Vulnerabilities](https://www.udemy.com/course/an-introduction-to-owasp-top-10-vulnerabilities)
 
 6. [Fundamentals of Network Engineering](https://www.udemy.com/course/fundamentals-of-networking-for-effective-backend-design)
+
+7. [Fundamentals of Backend Engineering](https://www.udemy.com/course/fundamentals-of-backend-communications-and-protocols)
