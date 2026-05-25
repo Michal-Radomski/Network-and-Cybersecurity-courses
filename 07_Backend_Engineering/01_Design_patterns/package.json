@@ -1,0 +1,13 @@
+{
+  "name": "03_udp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start_1": "NODE_ENV=development nodemon sync.ts",
+    "start_2": "NODE_ENV=development nodemon async.ts"
+  },
+  "keywords": [],
+  "author": "Michal Radomski <michalra@op.pl>",
+  "license": "MIT",
+  "type": "commonjs"
+}
