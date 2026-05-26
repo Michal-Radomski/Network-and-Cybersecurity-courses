@@ -1,21 +1,26 @@
 {
-  "name": "03_udp",
+  "name": "01_design_patterns",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "start_1": "NODE_ENV=development nodemon sync.ts",
     "start_2": "NODE_ENV=development nodemon async.ts",
     "server": "NODE_ENV=development nodemon server.ts",
-    "client": "NODE_ENV=development nodemon client.ts"
+    "client": "NODE_ENV=development nodemon client.ts",
+    "server2": "NODE_ENV=development nodemon serverShortPolling.ts",
+    "client2": "NODE_ENV=development nodemon clientShortPolling.ts"
   },
   "keywords": [],
   "author": "Michal Radomski <michalra@op.pl>",
   "license": "MIT",
   "type": "commonjs",
   "dependencies": {
+    "axios": "^1.16.1",
+    "express": "^5.2.1",
     "ws": "^8.21.0"
   },
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "@types/ws": "^8.18.1"
   }
 }
