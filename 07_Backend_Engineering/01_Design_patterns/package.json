@@ -8,7 +8,9 @@
     "server": "NODE_ENV=development nodemon server.ts",
     "client": "NODE_ENV=development nodemon client.ts",
     "server2": "NODE_ENV=development nodemon serverShortPolling.ts",
-    "client2": "NODE_ENV=development nodemon clientShortPolling.ts"
+    "client2": "NODE_ENV=development nodemon clientShortPolling.ts",
+    "server3": "NODE_ENV=development nodemon serverLongPolling.ts",
+    "client3": "NODE_ENV=development nodemon clientLongPolling.ts"
   },
   "keywords": [],
   "author": "Michal Radomski <michalra@op.pl>",
