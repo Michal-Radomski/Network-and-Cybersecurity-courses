@@ -4,10 +4,18 @@
   "description": "",
   "scripts": {
     "start_1": "NODE_ENV=development nodemon sync.ts",
-    "start_2": "NODE_ENV=development nodemon async.ts"
+    "start_2": "NODE_ENV=development nodemon async.ts",
+    "server": "NODE_ENV=development nodemon server.ts",
+    "client": "NODE_ENV=development nodemon client.ts"
   },
   "keywords": [],
   "author": "Michal Radomski <michalra@op.pl>",
   "license": "MIT",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.1"
+  }
 }
