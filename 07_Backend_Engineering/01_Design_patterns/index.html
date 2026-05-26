@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SSE Live Dashboard</title>
+  </head>
+  <body>
+    <h1>Live Stock Ticker</h1>
+    <div id="ticker-box">Waiting for updates...</div>
+
+    <script>
+      // 1. Establish connection to the SSE endpoint
+      const eventSource = new EventSource("http://localhost:3000/api/live-updates");
+
+      // 2. Listen for incoming generic messages from the server
+      eventSource.onmessage = (event) => {
+        const rawData = JSON.parse(event.data);
+
+        const targetDiv = document.getElementById("ticker-box");
+        targetDiv.innerHTML = `
+                <p><strong>Ticker:</strong> ${rawData.ticker}</p>
+                <p><strong>Price:</strong> $${rawData.price}</p>
+                <p><strong>Last Updated:</strong> ${rawData.timestamp}</p>
+                <hr/>
+            `;
+        console.log("Received update:", rawData);
+      };
+
+      // 3. Handle errors or connection drops (EventSource auto-reconnects natively!)
+      eventSource.onerror = (error) => {
+        console.error("SSE Connection lost. Browser is attempting auto-reconnect...", error);
+      };
+    </script>
+  </body>
+</html>
