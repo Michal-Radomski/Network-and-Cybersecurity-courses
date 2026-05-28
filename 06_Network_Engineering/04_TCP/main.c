@@ -22,7 +22,7 @@ int main(){
 	char buffer[1024];
 
 	sockfd = socket(AF_INET, SOCK_STREAM, 0);
-	printf("Server Socket Created Sucessfully.\n");
+	printf("Server Socket Created Successfully.\n");
 	memset(&serverAddr, '\0', sizeof(serverAddr));
 
 	serverAddr.sin_family = AF_INET;
