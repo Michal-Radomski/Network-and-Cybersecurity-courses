@@ -1,0 +1,21 @@
+// schema.proto
+syntax = "proto3";
+
+package users;
+
+// The User Service definition
+service UserService {
+  rpc GetUser (UserRequest) returns (UserResponse);
+}
+
+// The request message containing the user ID
+message UserRequest {
+  int32 id = 1;
+}
+
+// The response message containing user details
+message UserResponse {
+  int32 id = 1;
+  string name = 2;
+  string email = 3;
+}

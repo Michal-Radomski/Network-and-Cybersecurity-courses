@@ -4,16 +4,22 @@
   "description": "",
   "scripts": {
     "start_1": "NODE_ENV=development nodemon server.ts",
-    "start_2": "NODE_ENV=development nodemon client.ts"
+    "start_2": "NODE_ENV=development nodemon client.ts",
+    "start_3": "NODE_ENV=development nodemon server2.ts",
+    "start_4": "NODE_ENV=development nodemon client2.ts"
   },
   "keywords": [],
   "author": "Michal Radomski <michalra@op.pl>",
   "license": "MIT",
   "type": "commonjs",
   "dependencies": {
+    "@grpc/grpc-js": "^1.14.4",
+    "@grpc/proto-loader": "^0.8.1",
     "ws": "^8.21.0"
   },
   "devDependencies": {
-    "@types/ws": "^8.18.1"
+    "@types/node": "^25.9.1",
+    "@types/ws": "^8.18.1",
+    "typescript": "^6.0.3"
   }
 }
