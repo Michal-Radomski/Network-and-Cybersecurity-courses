@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "ignoreDeprecations": "6.0",
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["Dom", "DOM.Iterable", "ESNext"],
+    "experimentalDecorators": false,
+    "emitDecoratorMetadata": false,
+    "typeRoots": ["/usr/local/lib/node_modules/@types"], //* Globally installed types in Ubuntu
+    "types": ["node"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "skipLibCheck": true,
+    "noImplicitThis": true,
+    "strictPropertyInitialization": true,
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules"]
+}
