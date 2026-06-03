@@ -16,3 +16,5 @@ Perplexity, ChatGPT 😏 and Grok)
 6. [Fundamentals of Network Engineering](https://www.udemy.com/course/fundamentals-of-networking-for-effective-backend-design)
 
 7. [Fundamentals of Backend Engineering](https://www.udemy.com/course/fundamentals-of-backend-communications-and-protocols)
+
+8. [Fundamentals of Operating Systems](https://www.udemy.com/course/fundamentals-of-operating-systems)
