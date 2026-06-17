@@ -1,7 +1,7 @@
 # Network and Cybersecurity courses
 
 Files created during Network and Cybersecurity courses from Udemy.com (With a Little Help from My Friends: Gemini,
-Perplexity, ChatGPT 😏 and Grok)
+Perplexity, ChatGPT and Grok 😏)
 
 1. [The Complete Certified in Cybersecurity CC course ISC2 2026](https://www.udemy.com/course/certifiedincybersecurity)
 
@@ -18,3 +18,5 @@ Perplexity, ChatGPT 😏 and Grok)
 7. [Fundamentals of Backend Engineering](https://www.udemy.com/course/fundamentals-of-backend-communications-and-protocols)
 
 8. [Fundamentals of Operating Systems](https://www.udemy.com/course/fundamentals-of-operating-systems)
+
+9. [SSL/TLS and Public Key Infrastructure](https://www.udemy.com/course/ssltls-and-pki)
