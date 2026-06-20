@@ -26,3 +26,5 @@ Perplexity, ChatGPT and Grok 😏)
 11. [SSH Basics for Cloud Security](https://www.udemy.com/course/ssh-basics-for-cloud-security)
 
 12. [OSI model and TCP/IP model explained](https://www.udemy.com/course/osi-model)
+
+13. [The Complete SSL and TLS Guide: HTTP to HTTPS](https://www.udemy.com/course/ssl-complete-guide)
