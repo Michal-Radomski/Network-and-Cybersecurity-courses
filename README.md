@@ -20,3 +20,9 @@ Perplexity, ChatGPT and Grok 😏)
 8. [Fundamentals of Operating Systems](https://www.udemy.com/course/fundamentals-of-operating-systems)
 
 9. [SSL/TLS and Public Key Infrastructure](https://www.udemy.com/course/ssltls-and-pki)
+
+10. [SSL/TLS Protocol and Handshake Process](https://www.udemy.com/course/ssltls_handshake)
+
+11. [SSH Basics for Cloud Security](https://www.udemy.com/course/ssh-basics-for-cloud-security)
+
+12. [OSI model and TCP/IP model explained](https://www.udemy.com/course/osi-model)
