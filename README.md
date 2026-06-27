@@ -28,3 +28,5 @@ Perplexity, ChatGPT and Grok 😏)
 12. [OSI model and TCP/IP model explained](https://www.udemy.com/course/osi-model)
 
 13. [The Complete SSL and TLS Guide: HTTP to HTTPS](https://www.udemy.com/course/ssl-complete-guide)
+
+14. [The World of Computer Networking](https://www.udemy.com/course/world-of-computer-networking)
