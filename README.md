@@ -32,3 +32,5 @@ Perplexity, ChatGPT and Grok 😏)
 14. [The World of Computer Networking](https://www.udemy.com/course/world-of-computer-networking)
 
 15. [Learn OpenSSL with a real world cheatsheet](https://www.udemy.com/course/openssl-cheatsheet)
+
+16. [The Complete Cyber Security Course : Network Security!](https://www.udemy.com/course/network-security-course)
