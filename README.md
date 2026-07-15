@@ -34,3 +34,5 @@ Perplexity, ChatGPT and Grok 😏)
 15. [Learn OpenSSL with a real world cheatsheet](https://www.udemy.com/course/openssl-cheatsheet)
 
 16. [The Complete Cyber Security Course : Network Security!](https://www.udemy.com/course/network-security-course)
+
+17. [Application Security - The Complete Guide](https://www.udemy.com/course/application-security-the-complete-guide)
