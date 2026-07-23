@@ -36,3 +36,5 @@ Perplexity, ChatGPT and Grok 😏)
 16. [The Complete Cyber Security Course : Network Security!](https://www.udemy.com/course/network-security-course)
 
 17. [Application Security - The Complete Guide](https://www.udemy.com/course/application-security-the-complete-guide)
+
+18. [Learn OSINT (Open-source Intelligence) From Scratch](https://www.udemy.com/course/learn-osint-open-source-intelligence-from-scratch)
