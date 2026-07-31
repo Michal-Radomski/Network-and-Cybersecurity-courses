@@ -38,3 +38,5 @@ Perplexity, ChatGPT and Grok 😏)
 17. [Application Security - The Complete Guide](https://www.udemy.com/course/application-security-the-complete-guide)
 
 18. [Learn OSINT (Open-source Intelligence) From Scratch](https://www.udemy.com/course/learn-osint-open-source-intelligence-from-scratch)
+
+19. [Certified Wireless Security Professional (CWSP)](https://www.udemy.com/course/certified-wireless-security-professional-cwsp)
