@@ -1,0 +1,40 @@
+A **rogue device** in a Wireless Local Area Network (WLAN) is any unauthorized hardware connected to the network without the
+knowledge or permission of the network administrator. These devices represent a massive security vulnerability because they
+completely bypass corporate firewalls, encryption standards, and access control policies.
+
+---
+
+### Types of Rogue Devices in WLANs
+
+- **Rogue Access Points (APs):** A physical wireless router or hotspot plugged into a network port or created via software on
+  a computer. Employees often set these up accidentally for convenience (to bypass Wi-Fi dead zones), but attackers can also
+  plant them to create a hidden backdoor.
+- **Evil Twin APs:** A specialized malicious rogue access point that mimics a legitimate corporate Wi-Fi network (using the
+  same name/SSID). It tricks users into connecting so attackers can capture login credentials or intercept traffic.
+- **Rogue Client Devices:** Unauthorized smartphones, tablets, or laptops brought in by visitors or employees that connect to
+  the wireless network without proper vetting or security updates.
+
+---
+
+### Why Rogue Devices Are Dangerous
+
+- **Bypassing Security Controls:** They create unmonitored entry points that allow malicious actors to slip past perimeter
+  defenses.
+- **Man-in-the-Middle (MitM) Attacks:** Attackers can intercept, read, or alter data packets flowing between users and the
+  main network.
+- **Malware Distribution:** Unchecked rogue devices can act as a bridge to introduce ransomware or spyware directly into core
+  network segments.
+- **Data Theft:** Sensitive personal or organizational data can be quietly exfiltrated.
+
+---
+
+### Detection and Prevention Strategies
+
+1. **Wireless Intrusion Prevention Systems (WIPS):** Automated security tools that continuously scan the airwaves, compare
+   active access points against an approved inventory, and block unauthorized connections in real-time.
+2. **Network Access Control (NAC):** Enforces strict policies so that only authenticated, compliant devices are allowed onto
+   the network.
+3. **Regular Audits and Site Surveys:** Physically and digitally scanning environments to check for unknown MAC addresses or
+   unexpected Wi-Fi signals.
+4. **Network Segmentation:** Using Virtual LANs (VLANs) to isolate guest traffic and limit the damage an unauthorized device
+   can do if it manages to connect.
