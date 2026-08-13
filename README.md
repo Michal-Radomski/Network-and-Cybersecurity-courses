@@ -40,4 +40,6 @@ Perplexity, ChatGPT and Grok 😏)
 18. [Learn OSINT (Open-source Intelligence) From Scratch](https://www.udemy.com/course/learn-osint-open-source-intelligence-from-scratch)
 
 19. [Certified Wireless Security Professional (CWSP)](https://www.udemy.com/course/certified-wireless-security-professional-cwsp)
-    (Updated info by AI)
+    (Info updated by AI)
+
+20. [Beginner's Guide to Steganography From Scratch With Python](https://www.udemy.com/course/beginners-guide-to-steganography-from-scratch-with-python)
