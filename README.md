@@ -43,3 +43,7 @@ Perplexity, ChatGPT and Grok 😏)
     (Info updated by AI)
 
 20. [Beginner's Guide to Steganography From Scratch With Python](https://www.udemy.com/course/beginners-guide-to-steganography-from-scratch-with-python)
+
+21. [Web application Penetration Testing](https://www.udemy.com/course/web-application-penetration-testing)
+
+22. [Hacking REST APIs - A beginner's guide](https://www.udemy.com/course/hacking-rest-apis)
