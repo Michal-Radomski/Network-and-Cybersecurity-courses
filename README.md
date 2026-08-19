@@ -47,3 +47,5 @@ Perplexity, ChatGPT and Grok 😏)
 21. [Web application Penetration Testing](https://www.udemy.com/course/web-application-penetration-testing)
 
 22. [Hacking REST APIs - A beginner's guide](https://www.udemy.com/course/hacking-rest-apis)
+
+23. [Bug Bounty Hunting & Web Security Testing From Scratch](https://www.udemy.com/course/learn-bug-bounty-hunting-web-security-testing-from-scratch)
