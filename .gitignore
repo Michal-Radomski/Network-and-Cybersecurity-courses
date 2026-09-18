@@ -5,6 +5,7 @@ notes.txt
 __pycache__/
 Materials/
 node_modules/
+*.exe
 
 # Distribution / packaging
 .Python
